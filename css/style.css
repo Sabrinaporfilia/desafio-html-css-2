@@ -2,8 +2,6 @@ body{ font-family: 'Kumbh Sans', sans-serif;
     font-weight: 400;
 }
 
-
-
 img{
     width: 10%;
     height: 10%;
@@ -12,7 +10,6 @@ img{
 
 .cartao {
     background-color: red;
-<<<<<<< HEAD
     display: flex;  
     width: 50%;
     height: 50%;
@@ -27,27 +24,6 @@ img{
 
 .cartao .interacoes {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-=======
-    display: flex;
-    justify-content: center;
-    align-content: center; 
-    flex-direction: column;
-   
-
-}
-
-.cartao .informacoes {
- 
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    align-items: center; 
-}
-
-.cartao .interacoes  {
-    display:flex;
     flex-direction: row;
     justify-content: space-between;
 }
@@ -68,5 +44,4 @@ img{
 
 .nome {
     margin: 10px;
->>>>>>> eed34a3c2f4d389b5e74d32df9e3d2ba0a8f7ba6
 }
