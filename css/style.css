@@ -2,8 +2,6 @@ body{ font-family: 'Kumbh Sans', sans-serif;
     font-weight: 400;
 }
 
-
-
 img{
     width: 10%;
     height: 10%;
@@ -12,24 +10,20 @@ img{
 
 .cartao {
     background-color: red;
-    display: flex;
-    justify-content: center;
-    align-content: center; 
+    display: flex;  
+    width: 50%;
+    height: 50%;
     flex-direction: column;
-   
-
 }
 
 .cartao .informacoes {
- 
     display: flex;
-    flex-direction: row;
-    justify-content:center;
-    align-items: center; 
+    align-items: center;
+    flex-direction: column;
 }
 
-.cartao .interacoes  {
-    display:flex;
+.cartao .interacoes {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
