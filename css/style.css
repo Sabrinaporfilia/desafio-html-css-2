@@ -1,23 +1,26 @@
 body{ font-family: 'Kumbh Sans', sans-serif;
     font-weight: 400;
     font-size: 10px;
+    background-color: hsl(185, 75%, 39%);
 }
 
 img{
-    width: 10%;
-    height: 10%;
+    width: 20%;
+    height: 20%;
     border-radius: 50%;
+    margin: 7px;
 }
 
 .cartao {
-    background-color: red;
+    background-color: #ffff;
     display: flex;  
-    width: 50%;
-    height: 50%;
+    width: 25%;
+    height: 100%;
     flex-direction: column;
-
-    margin: auto;
-    margin-top: 20%;
+    border-radius:3%;
+   
+    /* margin: auto;
+    margin-top: 20%; */
 
 
     
@@ -35,6 +38,7 @@ img{
     flex-direction: row;
     justify-content: space-between;
     padding: 7%;
+    
 }
 
 .foto {
@@ -42,6 +46,7 @@ img{
     flex-direction: row;
     justify-content: center;
     align-content: center;
+    
 
 }
 .localizacao {
@@ -52,25 +57,38 @@ img{
 }
 
 .nome {
-    margin: 10px;
+    margin: 5px;
 }
 
 .localizacao .pais {
     font-weight: 400;
+    opacity: 70%;
+    padding: 5%;
 }
 
 .informacoes .idade {
-    font-weight: 400;
+    font-weight: 700;
+    opacity: 50%;
 }
 
 .interacoes .followers1 {
     font-weight: 400;
+    opacity: 70%;
 }
 
 .interacoes .likes1 {
     font-weight: 400;
+    opacity: 70%;
 }
 
 .interacoes .photos1 {
     font-weight: 400;
+    opacity: 70%;
 }
+
+.interacoes div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
