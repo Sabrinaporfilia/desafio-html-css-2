@@ -2,28 +2,30 @@ body{ font-family: 'Kumbh Sans', sans-serif;
     font-weight: 400;
     font-size: 10px;
     background-color: hsl(185, 75%, 39%);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+   
 }
 
 img{
-    width: 20%;
-    height: 20%;
+    width: 30%;
+    height: 30%;
     border-radius: 50%;
-    margin: 7px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+
+
 }
 
 .cartao {
     background-color: #ffff;
     display: flex;  
     width: 25%;
-    height: 100%;
-    flex-direction: column;
-    border-radius:3%;
-   
-    /* margin: auto;
-    margin-top: 20%; */
-
-
     
+    flex-direction: column;
+    border-radius:3%; 
 }
 
 .cartao .informacoes {
@@ -37,7 +39,8 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 7%;
+    padding: 10%;
+    
     
 }
 
