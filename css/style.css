@@ -10,7 +10,20 @@ img{
 
 .cartao {
     background-color: red;
+    display: flex;  
+    width: 50%;
+    height: 50%;
+    flex-direction: column;
+}
+
+.cartao .informacoes {
     display: flex;
-    justify-content: center;
-    align-content: center;  
+    align-items: center;
+    flex-direction: column;
+}
+
+.cartao .interacoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
