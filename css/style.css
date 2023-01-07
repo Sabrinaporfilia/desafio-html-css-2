@@ -1,0 +1,16 @@
+body{ font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+}
+
+img{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+}
+
+.cartao {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-content: center;  
+}
