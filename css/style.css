@@ -1,5 +1,6 @@
 body{ font-family: 'Kumbh Sans', sans-serif;
     font-weight: 400;
+    font-size: 10px;
 }
 
 img{
@@ -14,18 +15,26 @@ img{
     width: 50%;
     height: 50%;
     flex-direction: column;
+
+    margin: auto;
+    margin-top: 20%;
+
+
+    
 }
 
 .cartao .informacoes {
     display: flex;
     align-items: center;
-    flex-direction: column;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .cartao .interacoes {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 7%;
 }
 
 .foto {
@@ -44,4 +53,24 @@ img{
 
 .nome {
     margin: 10px;
+}
+
+.localizacao .pais {
+    font-weight: 400;
+}
+
+.informacoes .idade {
+    font-weight: 400;
+}
+
+.interacoes .followers1 {
+    font-weight: 400;
+}
+
+.interacoes .likes1 {
+    font-weight: 400;
+}
+
+.interacoes .photos1 {
+    font-weight: 400;
 }
